@@ -55,6 +55,7 @@ a.nav-link {
     padding: 0 !important;
 }
 
+
 #login_btn {
     padding: 12px 24px;
     border: 1px solid #616161;
@@ -65,6 +66,9 @@ a.nav-link {
     padding: 12px 24px;
     border: 1px solid #EA2227;
     border-radius: 8px;
+}
+
+#account_btn a {
     color: #EA2227 !important;
 }
 
@@ -101,7 +105,7 @@ a.nav-link {
 
 .wholeSeller h3 {
     font-weight: 800;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 29px;
     text-align: center;
     color: #212121;
@@ -305,6 +309,10 @@ footer p {
         text-align: center;
     }
 
+    .banner {
+        padding: 48px 0;
+    }
+
     .banner_body {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -317,13 +325,23 @@ footer p {
         margin-bottom: 24px;
     }
 
+    .wholeSeller .brand {
+        width: 163px;
+    }
+
+    .how_works {
+        padding: 48px 0;
+    }
+
+    .how_works .header_content {
+        margin-bottom: 40px;
+    }
+
     .how_works .header_content .btn_grp {
         gap: 16px;
     }
 
-    .wholeSeller .brand {
-        width: 163px;
-    }
+
 
 
 
