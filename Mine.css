@@ -104,7 +104,6 @@ h4.section__sub {
     font-weight: 600;
     color: var(--p--color);
     max-width: 600px;
-    /* margin: auto; */
 }
 
 .feature__box {
@@ -242,7 +241,6 @@ h4.section__sub {
         grid-template-columns: auto;
     }
 }
-
 /* =====access section css end here===== */
 
 
@@ -260,7 +258,6 @@ h4.section__sub {
 .SVB__inner .SVB__img img {
     width: 100%;
 }
-
 /* =====SVB section css end here===== */
 
 
@@ -285,5 +282,4 @@ h4.section__sub {
         grid-template-columns: auto;
     }
 }
-
 /* =====testimonial section css end here===== */
