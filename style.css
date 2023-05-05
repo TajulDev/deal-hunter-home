@@ -7,6 +7,12 @@
     padding: 16px 0;
 }
 
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
 .navbar-nav {
     gap: 32px;
     align-items: center;
@@ -114,6 +120,11 @@ a.nav-link {
 
 .how_works .header_content .btn_grp {
     gap: 24px;
+    overflow-x: scroll;
+}
+
+.how_works .header_content .btn_grp::-webkit-scrollbar {
+    display: none;
 }
 
 .how_works .header_content .btn_grp button:first-child {
@@ -138,6 +149,10 @@ a.nav-link {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     align-items: center;
+}
+
+.how_works .body_content h2 {
+    margin-bottom: 16px;
 }
 
 
@@ -261,6 +276,13 @@ footer p {
         text-align: center;
     }
 
+    .navbar-brand {
+        width: 134.94px;
+        height: 24px;
+
+
+    }
+
     a.nav-link {
         font-weight: 600;
         font-size: 16px;
@@ -307,13 +329,20 @@ footer p {
     }
 
     .how_works .header_content {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .how_works .header_content .btn_grp {
         gap: 16px;
     }
 
+    .how_works .header_content .btn_grp button {
+        font-size: 14px;
+    }
+
+    .how_works .body_content h2 {
+        margin-bottom: 24px;
+    }
 
 
 
