@@ -52,6 +52,11 @@ h4.section__sub{
         font-size: 32px;
         line-height: 40px;
     }
+
+    h4.section__sub{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
 }
 
 .section__gap{padding: 80px 0;}
@@ -91,13 +96,38 @@ h4.section__sub{
 
 .feature__box .feature__content p{
     max-width: 588px;
-    margin-right: auto;
+    /* margin-right: auto; */
     margin-bottom: 24px;
 }
 
 @media screen and (max-width: 767px) {
     .feature__box{
         flex-direction: column;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    .feature__box .feature__content img{
+        margin-bottom: 26px;
+    }
+
+    .feature__inner h2.section__title{
+        margin-bottom: 26px;
+    }
+
+    .feature__inner h4.section__sub{
+        margin-bottom: 24px;
+    }
+
+    .feature__inner p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .feature__content p{
+        margin: auto;  
+        font-size: 16px;   
+        line-height: 24px;     
     }
 }
 /* =====feature section css end here===== */
@@ -110,7 +140,7 @@ h4.section__sub{
 
 .pricing__boxes{
     max-width: 792px;
-    margin: auto;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: auto auto;
     gap: 24px;
@@ -178,6 +208,12 @@ h4.section__sub{
     transform: translateY(-50%);
     color: var(--red--color);
     font-size: 17;
+}
+
+@media screen and (max-width: 767px) {
+    .pricing__boxes{
+        grid-template-columns: auto;
+    }
 }
 
 /* =====access section css end here===== */
