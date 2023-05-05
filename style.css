@@ -32,8 +32,8 @@ a {
 }
 
 /* header section css */
-.phn_logo {
-    display: none;
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 
@@ -44,6 +44,7 @@ a {
 
 .navbar-nav {
     gap: 32px;
+    align-items: center;
 }
 
 a.nav-link {
@@ -54,34 +55,18 @@ a.nav-link {
     padding: 0 !important;
 }
 
+#login_btn {
+    padding: 12px 24px;
+    border: 1px solid #616161;
+    border-radius: 8px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#account_btn {
+    padding: 12px 24px;
+    border: 1px solid #EA2227;
+    border-radius: 8px;
+    color: #EA2227 !important;
+}
 
 /* faqs section css */
 .faqs {
@@ -145,7 +130,7 @@ hr {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('assets/minus.svg');
+    background-image: url('assets/home-assets/minus.svg');
 }
 
 .accordion-button:not(.collapsed) {
@@ -199,20 +184,15 @@ footer p {
 }
 
 @media screen and (max-width:991px) {
-    .phn_logo {
-        display: block;
+    .navbar-nav {
+        text-align: center;
     }
 
-
-
-
-
-
-
-
-
-
-
+    a.nav-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
 
     .faqs .header_content h1 {
         font-size: 32px;
@@ -223,7 +203,6 @@ footer p {
         font-size: 16px;
         line-height: 24px;
     }
-
 
     .faqs {
         padding: 40px 0;
