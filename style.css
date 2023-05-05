@@ -77,7 +77,7 @@ a.nav-link {
 }
 
 .banner {
-    padding: 133px 0;
+    padding: 67px 0;
 }
 
 .banner_body {
@@ -85,6 +85,14 @@ a.nav-link {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     align-items: center;
+}
+
+.banner_body h2 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    color: #212121;
+    margin-bottom: 16px;
 }
 
 .wholeSeller {
@@ -125,6 +133,10 @@ a.nav-link {
     margin-bottom: 102px;
 }
 
+.how_works .header_content .btn_grp {
+    gap: 24px;
+}
+
 
 
 .how_works .header_content .btn_grp button:first-child {
@@ -141,6 +153,7 @@ a.nav-link {
     color: #757575;
     padding: 10px 18px;
     background-color: transparent;
+    white-space: nowrap;
 }
 
 .how_works .body_content {
@@ -283,6 +296,39 @@ footer p {
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .section_P {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .banner_body {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner_body h2 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .how_works .header_content .btn_grp {
+        gap: 16px;
+    }
+
+    .wholeSeller .brand {
+        width: 163px;
+    }
+
+
+
+    .how_works .body_content {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .faqs .header_content h1 {
