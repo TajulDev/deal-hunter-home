@@ -71,7 +71,13 @@ h4.section__sub {
         font-size: 32px;
         line-height: 40px;
         text-align: center;
+    }
 
+    h2.section__title.custom_res {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
     }
 
     h4.section__sub {
