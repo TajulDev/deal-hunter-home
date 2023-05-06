@@ -125,34 +125,28 @@ a.nav-link {
     align-items: center;
 }
 
-
-.tab-content {
-    display: none;
+.how_works .body_content img {
+    border: 2px solid #E0E0E0;
+    border-radius: 7.46405px;
 }
 
-.tab-content:target {
-    display: block;
-}
 
-.tab-menu {
-    display: flex;
-    justify-content: center;
+
+.new_tab .nav {
     white-space: nowrap;
     overflow-x: scroll;
     gap: 24px;
+    width: 100%;
+    max-width: 797px;
+    margin: auto;
+    flex-wrap: nowrap;
 }
 
-.tab-menu::-webkit-scrollbar {
+.new_tab .nav::-webkit-scrollbar {
     display: none;
 }
 
-.tab-menu li {
-    display: inline-block;
-    /* margin-right: 24px; */
-}
-
-.tab-menu a {
-    display: inline-block;
+.new_tab .nav-link {
     padding: 10px 20px;
     font-weight: 600;
     font-size: 16px;
@@ -161,16 +155,19 @@ a.nav-link {
     border-radius: 32px;
     color: #757575;
     text-decoration: none;
+    background-color: transparent;
 }
 
-/* .tab-menu a:focus {
-    border: 1px solid #EA2227;
-    color: #EA2227;
-} */
-.actives {
+.new_tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
     border: 1px solid #EA2227 !important;
     color: #EA2227 !important;
+
 }
+
+
+
 
 /* faqs section css */
 .faqs {
