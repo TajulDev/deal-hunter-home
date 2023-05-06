@@ -8,3 +8,17 @@ tabLinks.forEach(link => {
   });
 });
 
+
+const tabAs = document.querySelectorAll(".tabA");
+
+tabAs.forEach(tabA => {
+  tabA.addEventListener("click", () => {
+    const currentActive = document.querySelector('.actives');
+
+    if (currentActive) {
+      currentActive.classList.remove('actives');
+    }
+
+    tabA.classList.add("actives");
+  });
+});

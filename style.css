@@ -163,9 +163,13 @@ a.nav-link {
     text-decoration: none;
 }
 
-.tab-menu a:hover {
+/* .tab-menu a:focus {
     border: 1px solid #EA2227;
     color: #EA2227;
+} */
+.actives {
+    border: 1px solid #EA2227 !important;
+    color: #EA2227 !important;
 }
 
 /* faqs section css */
