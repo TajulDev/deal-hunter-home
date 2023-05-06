@@ -124,14 +124,10 @@ a.nav-link {
     gap: 32px;
     align-items: center;
 }
-
 .how_works .body_content img {
     border: 2px solid #E0E0E0;
     border-radius: 7.46405px;
 }
-
-
-
 .new_tab .nav {
     white-space: nowrap;
     overflow-x: scroll;
