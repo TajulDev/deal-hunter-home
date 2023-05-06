@@ -222,6 +222,15 @@ hr {
     margin: 0;
 }
 
+.accordion-body ul {
+    padding-left: 30px;
+}
+
+.accordion-body ul li {
+    list-style: circle !important;
+}
+
+
 .accordion-button {
     gap: 24px;
 }
