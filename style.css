@@ -143,6 +143,7 @@ a.nav-link {
     max-width: 797px;
     margin: auto;
     flex-wrap: nowrap;
+    margin-bottom: 102px;
 }
 
 .new_tab .nav::-webkit-scrollbar {
@@ -369,7 +370,9 @@ footer p {
         margin-bottom: 24px;
     }
 
-
+    .new_tab .nav{
+        margin-bottom: 0 !important;
+    }
 
 
     .how_works .body_content {
