@@ -218,7 +218,7 @@ a.nav-link {
 
 hr {
     color: #E0E0E0;
-    height: 1px;
+    height: 1px !important;
     margin: 0;
 }
 
