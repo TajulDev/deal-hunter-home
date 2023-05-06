@@ -124,6 +124,9 @@ h4.section__sub {
 .feature__box img {
     width: 100%;
     max-width: 588px;
+    border: 2px solid #E0E0E0;
+    border-radius: 7.78231px;
+
 }
 
 .feature__box .feature__content p {
