@@ -114,8 +114,8 @@ h4.section__sub {
 }
 
 .feature__box {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 32px;
     margin-bottom: 98px;
@@ -134,7 +134,7 @@ h4.section__sub {
 
 @media screen and (max-width: 767px) {
     .feature__box {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
         text-align: center;
         margin-bottom: 48px;
     }
