@@ -7,6 +7,12 @@
     padding: 16px 0;
 }
 
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
 .navbar-nav {
     gap: 32px;
     align-items: center;
@@ -109,28 +115,7 @@ a.nav-link {
     max-width: 783px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
-}
-
-.how_works .header_content .btn_grp {
-    gap: 24px;
-}
-
-.how_works .header_content .btn_grp button:first-child {
-    color: #EA2227;
-    border: 1px solid #EA2227;
-}
-
-.how_works .header_content .btn_grp button {
-    border: 1px solid #757575;
-    border-radius: 32px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    color: #757575;
-    padding: 10px 18px;
-    background-color: transparent;
-    white-space: nowrap;
+    /* margin-bottom: 50px; */
 }
 
 .how_works .body_content {
@@ -140,6 +125,48 @@ a.nav-link {
     align-items: center;
 }
 
+
+.tab-content {
+    display: none;
+}
+
+.tab-content:target {
+    display: block;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: scroll;
+    gap: 24px;
+}
+
+.tab-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.tab-menu li {
+    display: inline-block;
+    /* margin-right: 24px; */
+}
+
+.tab-menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #757575;
+    border-radius: 32px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.tab-menu a:hover {
+    border: 1px solid #EA2227;
+    color: #EA2227;
+}
 
 /* faqs section css */
 .faqs {
@@ -153,7 +180,7 @@ a.nav-link {
     margin-bottom: 40px;
 }
 
-.faqs .header_content h1 {
+.faqs .header_content h2 {
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
@@ -261,6 +288,13 @@ footer p {
         text-align: center;
     }
 
+    .navbar-brand {
+        width: 134.94px;
+        height: 24px;
+
+
+    }
+
     a.nav-link {
         font-weight: 600;
         font-size: 16px;
@@ -307,13 +341,20 @@ footer p {
     }
 
     .how_works .header_content {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .how_works .header_content .btn_grp {
         gap: 16px;
     }
 
+    .how_works .header_content .btn_grp button {
+        font-size: 14px;
+    }
+
+    .how_works .body_content h2 {
+        margin-bottom: 24px;
+    }
 
 
 
@@ -322,7 +363,7 @@ footer p {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .faqs .header_content h1 {
+    .faqs .header_content h2 {
         font-size: 32px;
         line-height: 40px;
     }

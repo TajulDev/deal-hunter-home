@@ -73,7 +73,14 @@ h4.section__sub {
         text-align: center;
     }
 
-    h4.section__sub{
+    h2.section__title.custom_res {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    h4.section__sub {
         padding: 8px 16px;
         font-size: 14px;
     }
@@ -107,8 +114,8 @@ h4.section__sub {
 }
 
 .feature__box {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 32px;
     margin-bottom: 98px;
@@ -127,32 +134,32 @@ h4.section__sub {
 
 @media screen and (max-width: 767px) {
     .feature__box {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
         text-align: center;
         margin-bottom: 48px;
     }
 
-    .feature__box .feature__content img{
+    .feature__box .feature__content img {
         margin-bottom: 26px;
     }
 
-    .feature__inner h2.section__title{
+    .feature__inner h2.section__title {
         margin-bottom: 26px;
     }
 
-    .feature__inner h4.section__sub{
+    .feature__inner h4.section__sub {
         margin-bottom: 24px;
     }
 
-    .feature__inner p{
+    .feature__inner p {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .feature__content p{
-        margin: auto;  
-        font-size: 16px;   
-        line-height: 24px;     
+    .feature__content p {
+        margin: auto;
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 
@@ -237,10 +244,11 @@ h4.section__sub {
 }
 
 @media screen and (max-width: 767px) {
-    .pricing__boxes{
+    .pricing__boxes {
         grid-template-columns: auto;
     }
 }
+
 /* =====access section css end here===== */
 
 
@@ -258,6 +266,7 @@ h4.section__sub {
 .SVB__inner .SVB__img img {
     width: 100%;
 }
+
 /* =====SVB section css end here===== */
 
 
@@ -282,4 +291,5 @@ h4.section__sub {
         grid-template-columns: auto;
     }
 }
+
 /* =====testimonial section css end here===== */
