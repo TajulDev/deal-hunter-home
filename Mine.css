@@ -126,7 +126,10 @@ h4.section__sub {
     max-width: 588px;
     border: 2px solid #E0E0E0;
     border-radius: 7.78231px;
+}
 
+.feature__box img.pro {
+    border: none !important;
 }
 
 .feature__box .feature__content p {
