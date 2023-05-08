@@ -229,9 +229,12 @@ hr {
 .accordion-body ul {
     padding-left: 30px;
 }
+.accordion-body ul{
+    list-style-type: "*";
+}
 
 .accordion-body ul li {
-    list-style: circle !important;
+    list-style: disc !important;
 }
 
 
