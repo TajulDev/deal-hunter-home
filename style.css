@@ -358,11 +358,11 @@ footer p {
         margin-bottom: 0px;
     }
 
-    .how_works .header_content .btn_grp {
+    .new_tab .nav {
         gap: 16px;
     }
 
-    .how_works .header_content .btn_grp button {
+    .new_tab .nav-link {
         font-size: 14px;
     }
 
