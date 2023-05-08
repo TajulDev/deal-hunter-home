@@ -72,6 +72,8 @@ a.nav-link {
 
 .banner_body img {
     filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.16));
+    border-radius: 6.79458px;
+    border: 1px solid #E0E0E0;
 }
 
 .banner_body h2 {
