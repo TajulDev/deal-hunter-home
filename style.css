@@ -231,12 +231,17 @@ hr {
 .accordion-body ul {
     padding-left: 30px;
 }
-.accordion-body ul{
+
+.accordion-body ul {
     list-style-type: "*";
 }
 
 .accordion-body ul li {
     list-style: disc !important;
+}
+
+.accordion-body {
+    text-align: justify;
 }
 
 
@@ -375,7 +380,7 @@ footer p {
         margin-bottom: 24px;
     }
 
-    .new_tab .nav{
+    .new_tab .nav {
         margin-bottom: 0 !important;
     }
 
