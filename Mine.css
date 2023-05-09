@@ -118,7 +118,7 @@ h4.section__sub {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 32px;
-    margin-bottom: 98px;
+    margin-bottom: 80px;
 }
 .feature__box:last-child{
     margin-bottom: 0px !important;
