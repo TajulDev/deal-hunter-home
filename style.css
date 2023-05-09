@@ -111,6 +111,7 @@ a.nav-link {
 /* how it works section css */
 .how_works {
     padding: 80px 0;
+    margin-bottom: 50px;
 }
 
 .how_works .header_content {
