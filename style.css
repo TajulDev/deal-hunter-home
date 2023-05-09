@@ -142,7 +142,7 @@ a.nav-link {
     overflow-x: scroll;
     gap: 24px;
     width: 100%;
-    max-width: 840px;
+    max-width: 800px;
     margin: 0 auto;
     flex-wrap: nowrap;
     /* justify-content: center; */
